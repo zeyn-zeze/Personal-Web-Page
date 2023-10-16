@@ -1,0 +1,144 @@
+body{background-image: url('images/indir\ \(6\).jpg');}
+     
+h1{
+    background-color: #C3ACD0;
+    text-align: center;
+    display: block;
+    margin: 5px;
+    padding: 2px;
+    color:antiquewhite;
+    border-radius: 5px;
+    font-style: italic;
+    border: 5px solid #A084CA;
+}
+.paragraph1
+{   background-color: #C3ACD0;
+    color:#F9F2ED;
+    display:block;
+    font-size: 20px;
+    text-indent: 20px;
+    padding: 5px;
+    line-height:30px;
+    font-style: oblique;   
+}
+
+.col-2{
+
+    display: inline-block;
+    width: calc(50% - 2px);
+    height: 350px;
+    vertical-align: top;
+}
+
+div img{  
+float: right;
+margin-right: 10px;
+background-position: center;
+width: calc(99% - 1px);
+height: 340px;
+
+}
+
+.web{
+
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+}
+.web:link{
+    color:darkblue;
+}
+.web:visited{
+    color: brown;
+}
+.web:hover{
+    background-color: #674188;
+    color: azure;
+}
+.web:active{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+
+
+h3{
+text-align: center;
+font-size: 48px;
+font-style: oblique;
+color:#F9F2ED;
+border: 5px solid #674188;
+}
+
+.col-3{
+   
+    display: inline-block;
+    width: calc(50% - 2px);
+    height: 350px;
+    vertical-align:text-top;
+    font-size: 24px;
+    list-style-type:square;
+    margin:0 auto;
+    font-style:italic;
+    font-weight: bold;
+    color:#F9F2ED;
+
+}
+
+#box_2{
+    background-color:#BFACE0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin:25px ;
+}
+
+ .img2,.img3{
+  width:33%;
+  height:33%;
+  margin-left: 10px;
+ } 
+
+ .hobbies{
+    display: block;
+    float: right;
+    border: 5px outset lavender;
+    block-size: initial;
+    margin-right: 15px;
+    padding: 5px;
+
+ }
+
+ #tell_me_hobbies{
+    
+    background-color: #BFACE0;
+    color: #F9F2ED;
+    text-align: center;
+    box-sizing: content-box;
+ }
+
+ #box_3{
+
+    background-color: #F9F2ED;
+    color: #674188;
+    margin:25px ;
+    padding: 5px;
+       
+}
+
+ input[type=checkbox]{
+    margin: auto;
+    padding: 2px;
+    
+   }
+
+   input[type=radio]{
+   padding: 3px;
+   
+   }
+
+  table,td{
+    border:3px solid #674188;
+    margin: 3px;
+  }
+  

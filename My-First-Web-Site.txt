@@ -1,0 +1,70 @@
+Zeynep's First Website
+
+Name-Surname:Zeynep Ozcelik
+School-ID : 220229034
+
+This website was created with HTML and external CSS codes in Visual Studio Code editor.
+Given conditions were paid attention to in HTML and CSS codes.
+In addition, this website had been tried to semantic web rules.
+
+On the HTML side of the website,
+My Html section consist of 3 part.The first part,"website was started with <h1></h1> and was occured a head of the website."<p> </p>" (paragraph tag) is used to indicate the paragraph in which I was talking about myself.
+Paragraph tags were used to for appear organised image and paragraphs.And <section> and <div> tags were made the website look more organized.And This tags are more important for The Semantic Web Rules.
+In the first <div>, The information given by me about myself was mentioned.And was added a image.
+In the Second <div>,If the readers want to know more information about the paragraph,link was put on the website with <a></a> tag."target=_blank" has been used to for link page open in the other page.
+
+In second section, 
+I mentioned my hobbies and i put some images about my hobbies.My hobbies were list with <ul> and <li> tags.For images and list seems beautiful,images and lists were seperate with <div> tags.
+Images and list were classified with this type:
+1-Image1, 2- Lists ,3-Image2
+Image and list seems more organised were tend to box speficies in CSS more than HTML.
+
+In the final section on the HTML,
+Some form,checkbox were made for  get information about the reader and learn about her/him hobbies.This form consist of 3 tags:<input type="text">,<input type="checkbox">,<input type="radio">.Text was used for know readers name, get information about reader and get reader's hobbies.
+checkbox type was used for which hobby common with mine. and radio button created in case the reader is interested in coding.I wrote all form and checkbox in <footer> side.
+<Table>, <tr>, <td> tags are used to make the text and checkboxes look separate and more organized.
+
+On the CSS side of the web site,
+CSS side is used for HTML side look more organised and colorful.Some Css tags like color,background color,margin,text-aline,display,box-size,font-size,font-style were used for give shape to body side of HTML.
+Ids(#) and classes (.) are used to make special adjustments within certain fields.For example ın the second section's div part we used "class=col-3",ın css side looked  like this:
+
+.col-3
+{
+   
+    display: inline-block;
+    width: calc(50% - 2px);
+    height: 350px;
+    vertical-align:text-top;
+    font-size: 24px;
+    list-style-type:square;
+    margin:0 auto;
+    font-style:italic;
+    font-weight: bold;
+    color:#F9F2ED;
+}
+
+I have 10 class and 2 id on my website for using in CSS.
+First, I used body{}; for background image fill the whole page.
+I used h1{}; for set the background, place on the page, layout, size and type of the font of the h1 tag in the HTML.
+I used .paragraph1{} for the first paragraph's background colour, color,position,font style etc. to determine.
+I used .col-2{} for arrange width ,height between paragraph and image and for create a block between paragraphs and image with display="inline-block".
+Then, I used "web" class for make a design on the link.I used ".web,.web:link,.web:visited,.web:hover,.web:active" for change properties when before clicking on the link, after clicking it,clicking.
+I used h3{}; for make a title in the hobbies part and i designed background and font-colour.I arranged font-size,style,where will the text be with text-align.then,i put a border around the header for the look more organised.
+I used  .col_3{} for arrange unordered list's style and size of the list box, font-size,arrange the spacing left outside the page and inside the box.
+I used #box_2 id for use the features fill the whole hobbies part(with h3),features like margin,padding,background color,color.
+I used #box_3 id for change background color and arrange space between form-box and page with using margin.(addition,I used padding too for page look more organised.) 
+I used #tell_me_hobbies for the final selection h3's part's decoration.I wanted  make the h3's background different from #box_3(form-box) and ı changed colour and text design with bacground colour for looking more pretty.
+I used  div img{}; for arrange the image width and hight and the place where i put image in first section.
+I used .img2{},.img3{}; for arrange width,height,margin and padding of the images.
+Towards the end I used input[type="checkbox"], input[type=radio].I just arranged margin and padding.I set the range of the content with padding and box.
+Final I used table,td for seperate all boxes with border.Table made it easy to separate forms.I used border,margin to make table look clear.
+
+And generally I used display="block" or "inline-block" all of them especially id which include a box and some of class.Because I wanted to my web site's look classified and organised.
+i could distinguish my webpage's components through this property.And I could add diffirent features like background-color,color,margin,padding,text-align etc.for different boxes.
+ 
+I had a hard time dividing the page into sections with box, and finally I assigned different box ids to each section.Also, I wanted to put different background-image to each section but i was forced for "display="block""command seperate all div,p,img,id,class.
+Eventually,I decided put a one background-color whole body of the HTML.
+
+I didn't take my photos internet ,You can only access with "images" folder in the "WEBSITE/website_homework" folder.
+The link of the "Go To Sinop Webpage" : https://www.sinop.bel.tr/
+
